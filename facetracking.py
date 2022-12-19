@@ -25,9 +25,10 @@ while True:
         centerx = (2 * x + w) / 2
         centery = (2 * y + h) / 2
 
-        scalex = 
+        scalex = centerx / width
+        scaley = centery / height
 
-
+        arduino_write(180 * scalex, 180 * scaley)
 
     cv2.imshow('Video', frame)
 

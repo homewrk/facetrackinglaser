@@ -19,4 +19,5 @@ void loop() {
   
   servoX.write(x);
   servoY.write(y);
+
 }
